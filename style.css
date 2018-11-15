@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 /* Add a black background color to the top navigation
+=======
+/* Add a black background color to the top navigation */
+>>>>>>> 72d06d269879743e6b20e749abfc61902c8c1c11
 .topnav {
     background-color: #F4F1F1;
     overflow: hidden;
     text-align: center;
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 72d06d269879743e6b20e749abfc61902c8c1c11
 
 
 /* color of navigation font */
@@ -11,6 +19,7 @@ link {
     color: #1D1A1A;
 }
 /* Style the links inside the navigation bar */
+<<<<<<< HEAD
 
 
 nav {
@@ -19,6 +28,22 @@ nav {
     background-color: white;
     margin: 0;
     padding: 0;
+=======
+.topnav a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+    text-align: right;
+>>>>>>> 72d06d269879743e6b20e749abfc61902c8c1c11
 }
 
 img {
@@ -33,11 +58,19 @@ h1 {
     color: mediumseagreen;
 }
 body {
+<<<<<<< HEAD
     background-color: white;
     position: fixed;
     width: 100%;
     height: 100%;
    /* margin for the different columns  */
+=======
+    background-color: #D9D4D4;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+   
+>>>>>>> 72d06d269879743e6b20e749abfc61902c8c1c11
 }
 h2 {
     font-size: 40px;
