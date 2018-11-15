@@ -15,7 +15,7 @@ link {
 
 nav {
     float: right;
-    color: black;
+    color: white;
     background-color: white;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ h1 {
     color: mediumseagreen;
 }
 body {
-    background-color: #D9D4D4;
+    background-color: white;
     position: fixed;
     width: 100%;
     height: 100%;

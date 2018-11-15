@@ -15,27 +15,26 @@
          <div class="page-header">
                  <h1>Latitude</h1>
 
-        <div class="container">
-            <div class="dropdown">
-                    <div id="dropdown">
-                    <button class="btn btn-primary dropdown-toggle"
-                    type="button" data-toggle="dropdown">Plots<span class="caret">
-                    </span></button>
-                    <ul class="dropdown-menu">
-                            <li><a href="Max_Temperature.html">Max Temperature</a></li>
-                            <li><a href="Humidity.html">Humidity</a></li>
-                            <li><a href="Cloudiness.html">Cloudiness</a></li>
-                            <li><a href="Wind_Speed.html">Wind SpeedS</a></li>
-                                
-                    </ul>
-
-                    <a href="#plots">Plots</a>
-                    <a href="#contact">Comparison</a>
-                    <a href="#about">Data</a>
-                  </div>
+        <nav class="topnav-icons">
+                <div class="container-fluid">
+                        
+                        <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#Plots">Plots
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                <li><a href="Max_Temperature.html">Max Temperature</a></li>
+                                <li><a href="Humidity.html">Humidity</a></li>
+                                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                                <li><a href="Wind_Speed.html">Wind Speeds</a></li>
+                                </ul>
+                                </li>
+                                <li><a href="#">Comparison</a></li>
+                                <li><a href="#">Data</a></li>
+                                </ul>
                 </div>
-                </div>
-                </div>
+                </nav>      
+        
             <title>
     </title>
     </head>
@@ -45,20 +44,28 @@
         <div class="row">
                 <div class="col-md-8 col-sm-12">
         
-            <h1>Summary: Latitude vs. X</h1>
+            <h1>City Latitude vs. Humidity</h1>
             <img src="Resources/Fig2.png" class="img-thumbnail" alt="Fig1">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-            <p>After assembling the dataset, we used Matploib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.  </p>
+            <p>The humidity level of cities as reaching from -60 to 80 degrees latitude seem to hold to humidity levels being closer to 100. There is no clear trend though a slight lean to a higher humidity rate from 0 to 80, disregarding outliers.</p>
+            <p>A large group of cities hold humidity at 100% ranging from -40 to 80 degrees latitude. The largest range of cities ranging from 60-100% humidity. There is a notable outlie cluster at 0% humidity at the latitude of 60-70 degrees latitude.</p>
         </div>
 
         <div class="row">
-        <div class="col-md-4">
-        <aside id="visualizations">
-        <h2>Visualizations</h2>
-        <ul>
-        <img src="Resources/Fig2.png" alt="Fig1" href="Humidity.html">      
-        </ul>        
-        </aside>
+                        <div class="col-md-4">
+                        <aside id="visualizations">
+                        <h2>Visualizations</h2>
+                        <ul>
+                        <a href="Max_Temperature.html"><img src="Resources/Fig1.png"
+                                 alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                        <a href="Humidity.html"><img src="Resources/Fig2.png"
+                                alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                        <a href="Cloudiness.html"><img src="Resources/Fig3.png"
+                                alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                        <a href="Wind_Speed.html"><img src="Resources/Fig4.png"
+                                alg="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                        </ul>        
+                        </aside>
+     
 </div>
 </div>
 </div>
